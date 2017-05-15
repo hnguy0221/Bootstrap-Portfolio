@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"/>
+        <title>Bootstrap-Portfolio-Contact</title>
+        <!-- Linking CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/contact-style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!--header row-->
+            <div class="row header-content-row">            
+                <div class="col-sm-8">
+                    <h1>Hai Nguyen</h1>
+                </div>
+                <div class="col-sm-4">
+                    <div class="btn-group">
+                        <a href="index.html" class="btn btn-xs my-btn about-btn">About</a>
+                        <a href="portfolio.html" class="btn btn-xs my-btn portfolio-btn">Portfolio</a>
+                        <a href="contact.html" class="btn btn-xs my-btn">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <!--main content row(s)-->
+            <div class="row main-content-row">
+                <div class="col-sm-8 contact-section">
+                    <p class="contact-text">Contact</p>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input class="form-control" value="John Smith" type="name" id="name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" value="example@gmail.com" id="email" /> 
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" rows="5" id="message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn button-1">Submit</button>
+                        </div>     
+                    </form>
+                </div>
+                <div class="col-sm-3 connect-with-me-section">
+                    <p id="connect-with-me-text">Connect with me</p>
+                    <a href="https://github.com/">
+                        <img class="github-img" src="assets/images/github_square_black.png"/>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/">
+                        <img class="social-icon-img" src="assets/images/linkedin.png"/>
+                    </a>
+                    <a href="http://stackoverflow.com/">
+                        <img class="social-icon-img" src="assets/images/stackoverflow.png"/>
+                    </a>
+                </div>
+            </div>
+            <!--footer row-->
+            <div class="row my-footer">
+                <div class="col-sm-12">
+                    <p>© Copyright 2017 Hai Nguyen</p>
+                </div>
+            </div>
+        </div> <!--end of <div class="container"-->
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"/>
+        <title>Bootstrap-Portfolio-About-Me</title>
+        <!-- Linking CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/about-style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid header-content-row">
+                <div class="navbar-header">
+                    <h1>Hai Nguyen</h1>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <!--header row-->
+            <!--<div class="row header-content-row">            
+                <div class="col-sm-8">
+                    <h1>Hai Nguyen</h1>
+                </div>
+                <div class="col-sm-4">
+                    <div class="btn-group">
+                        <a href="index.html" class="btn btn-xs my-btn about-btn">About</a>
+                        <a href="portfolio.html" class="btn btn-xs my-btn portfolio-btn">Portfolio</a>
+                        <a href="contact.html" class="btn btn-xs my-btn">Contact</a>
+                    </div>
+                </div>
+            </div>-->
+            <!--main content row(s)-->
+            <div class="row main-content-row">
+                <!--<div class="col-xs-8 col-sm-8 col-md-8 about-me-section">-->
+                <div class="col-sm-8 about-me-section">
+                    <p class="about-me-text">About Me</p>
+                    <img src="assets/images/tigers.jpg" alt="Hai Nguyen" id="about-me-image"/>
+                    <p class="paragraph">My name is Hai Nguyen. I came to the U.S.A in 1978 as a refugee from Vietnam. I attended Lakewood High School (Go Tigers) in Lakewood, Colorado and University of Colorado at Denver. I currently live in Westminster, Colorado with my wife and three boys, ages 11, 20, and 22.</p>
+                    <p class="paragraph">In my career, I started out as a Software Test after college and worked for Storage Tech Corporation (STC) which is now Oracle Corporation. I left STC after eight years and joined McKesson as a Software Engineer. After almost twenty years, my tenure with McKesson finally came to an end on March 31st, 2017 as I was let go as part of the company's downsizing. My background includes C, C++, Java, Web Prgramming and Scripting, Linux, Unix, Oracle, Microsoft SQL Server, T-SQL, and Microsoft SQL Server Reporting Services (SSRS).</p>
+                    <p class="paragraph">I am currently pursuing a full stack web development certificate from University of Denver. My interests are web development, football, running, biking, and fishing. In my spare time, I volunteer at Denver Rescue Mission, and at a local church in which I am a member.</p>
+                </div>
+                <!--<div class="col-xs-4 col-sm-4 col-md-4 connect-with-me-section">-->
+                <div class="col-sm-3 connect-with-me-section">
+                    <p id="connect-with-me-text">Connect with me</p>
+                    <a href="https://github.com/">
+                        <img class="github-img" src="assets/images/github_square_black.png"/>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/">
+                        <img class="social-icon-img" src="assets/images/linkedin.png"/>
+                    </a>
+                    <a href="http://stackoverflow.com/">
+                        <img class="social-icon-img" src="assets/images/stackoverflow.png"/>
+                    </a>
+                </div>
+            </div>
+            <!--footer row-->
+            <div class="row my-footer">
+                <div class="col-sm-12">
+                    <p>© Copyright 2016 Hai Nguyen</p>
+                </div>
+            </div>
+        </div> <!--end of <div class="container"-->
+    </body>
+</html>
