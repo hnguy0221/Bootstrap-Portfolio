@@ -17,6 +17,21 @@ h1
     padding-bottom: 25px;
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 24px;
+    animation-name: animation_h1;
+    animation-duration: 5s;
+}
+
+/* The animation code */
+@keyframes animation_h1 
+{
+    from 
+    {
+        background-color: red;
+    }
+    to 
+    {
+        background-color: #4aaaa5;
+    }
 }
 
 .header-content-row
